@@ -1,0 +1,152 @@
+.recipes__main-content {
+  display: flex;
+}
+
+.recipes__sidebar {
+  background-color: #7ecec9;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+    margin-left: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+.recipes__sidebar-navbar {
+  display: flex;
+  justify-content: space-between;
+
+  h3 {
+    font-weight: lighter;
+  }
+}
+
+.recipes__submenu {
+  background-color: #555;
+  padding: 1em;
+  padding-bottom: 0.5em;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-top: 1em;
+  margin-right: auto;
+  width: 12em;
+
+  & p {
+    font-size: 0.75em;
+  }
+
+  .recipes__search-entry {
+    cursor: pointer;
+    text-align: center;
+    width: 4em;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: darken($color: white, $amount: 20);
+    }
+  }
+
+  .recipes__new-entry {
+    cursor: pointer;
+    text-align: center;
+    width: 4em;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: darken($color: white, $amount: 20);
+    }
+  }
+}
+
+.recipes__entries {
+  flex: 1 1 auto;
+  margin-top: 30px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.recipes__entry {
+  background-color: white;
+  border-radius: 4px;
+  color: $dark-grey;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 0.25em;
+  overflow: hidden;
+
+  .recipes__entry-picture {
+    height: 75px;
+    width: 75px;
+  }
+
+  .recipes__entry-body {
+    padding: 10px;
+  }
+
+  .recipes__entry-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .recipes__entry-content {
+    font-size: 10px;
+  }
+
+  .recipes__entry-date-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+
+    span {
+      font-size: 12px;
+    }
+  }
+}
+
+.recipes__search-recipe {
+  padding: 2em;
+
+  .recipes__top {
+    display: flex;
+
+    i {
+      cursor: pointer;
+      margin: 1em;
+    }
+  }
+}
+
+.recipes__empty {
+  color: $light-grey-plus;
+  text-align: center;
+}

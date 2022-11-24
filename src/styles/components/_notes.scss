@@ -1,0 +1,75 @@
+.notes__main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .notes__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+
+    .notes__title-input,
+    .notes__time-input,
+    .notes__textarea {
+      border: none;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .notes__title-input {
+      color: $dark-grey;
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .notes__time-input {
+      color: $dark-grey;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-left: 5px;
+      margin-bottom: 10px;
+    }
+
+    .notes__textarea {
+      color: $dark-grey;
+      font-size: 20px;
+      flex: 1 1 auto;
+      resize: none;
+    }
+
+    .notes__food {
+      display: flex;
+      flex-direction: column;
+
+      .notes__textarea-ingredientes {
+        font-size: 1.5em;
+      }
+    }
+
+    .notes__image {
+      height: 150px;
+
+      img {
+        box-shadow: 5px 5px $dark-grey;
+        max-height: 100%;
+      }
+    }
+  }
+}
+
+.notes__appbar {
+  align-items: center;
+  background-color: $primary;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+
+  .notes__cancel {
+    cursor: pointer;
+  }
+}

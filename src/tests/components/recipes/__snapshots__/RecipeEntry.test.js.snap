@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en RecipeEntry Debe de mostrarse correctamente 1`] = `
+<div
+  className="randomClass"
+  onClick={[Function]}
+>
+  <div
+    className="recipes__entry pointer animate__animated animate__bounceInLeft animate__faster"
+  >
+    <div
+      className="recipes__entry-picture"
+      style={
+        Object {
+          "backgroundImage": "url(https://flaticon.com/mouth.png)",
+          "backgroundSize": "cover",
+        }
+      }
+    />
+    <div
+      className="recipes__entry-body"
+    >
+      <p
+        className="recipes__entry-title"
+      >
+        Ayuda pofavo
+      </p>
+      <p
+        className="recipes__entry-content"
+      >
+        equisde
+      </p>
+    </div>
+    <div
+      className="recipes__entry-date-box"
+    >
+      <span>
+        Thursday
+      </span>
+      <h4>
+        01
+      </h4>
+    </div>
+  </div>
+</div>
+`;
