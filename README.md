@@ -12,7 +12,7 @@ Esta web tiene como propósito poder guardar y ordenar tus recetas para que pued
 
 https://abrahamlopdel.github.io/self-recipe-book/
 
-Si quieres hacer pruebas para ver cómo funciona la aplicación, **puedes entrar con el correo de prueba (el cual vendrá puesto por defecto)**. Igualmente si lo prefieres, también puedes crearte una cuenta :D
+Si quieres hacer pruebas para ver cómo funciona la aplicación, **`puedes entrar con el correo de prueba (el cual vendrá puesto por defecto)`**. Igualmente si lo prefieres, también puedes crearte una cuenta :D
 
 ### `Librerías`
 
