@@ -2,7 +2,7 @@
 
 Este es un proyecto React con redux, con back-end en Firebase. Se ha utilizado SCSS y librerías para la animación de la misma.
 
-(El proyecto aún está por terminar, por lo que tiene ciertos fallos, búsquedas o integraciones incompletas)
+(El proyecto aún está por terminar, por lo que tiene pequeños bugs o integraciones incompletas)
 
 ## Propósito de la Web
 
